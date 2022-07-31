@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WUB Book Shop</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#home" class="logo"> <i class="fas fa-book"></i> WUB BOOK SHOP </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="search here..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+
+    </div>
+
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#CSE_Book">CSE Book</a>
+            <a href="#Story_Book">Story Book</a>
+            <a href="./About.html">About</a>
+        </nav>
+    </div>
+
+</header>
+
+<!-- header section ends -->
+
+<!-- bottom navbar  -->
+
+<nav class="bottom-navbar">
+    <a href="#home" class="fas fa-home"></a>
+    <a href="#featured" class="fas fa-list"></a>
+    <a href="#arrivals" class="fas fa-tags"></a>
+    <a href="#reviews" class="fas fa-comments"></a>
+    <a href="#blogs" class="fas fa-blog"></a>
+</nav>
+
+<!-- login form  -->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>sign in</h3>
+        <span>username</span>
+        <input type="email" name="" class="box" placeholder="enter your email" id="">
+        <span>password</span>
+        <input type="password" name="" class="box" placeholder="enter your password" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="remember-me">
+            <label for="remember-me"> remember me</label>
+        </div>
+        <input type="submit" value="sign in" class="btn">
+        <p>forget password ? <a href="#">click here</a></p>
+        <p>don't have an account ? <a href="#">create one</a></p>
+    </form>
+
+</div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    <div class="row">
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a href="./CSE-BOOK.html" class="swiper-slide"><img src="Book/CSE/Book 1.1.jpg" alt=""></a>
+                <a href="./Story-Book.html" class="swiper-slide"><img src="Book/Story/story2.jpg" alt=""></a>
+                <a href="./CSE-BOOK.html" class="swiper-slide"><img src="Book/CSE/Book 1.2.jpg" alt=""></a>
+                <a href="./Story-Book.html" class="swiper-slide"><img src="Book/Story/story4.jpg" alt=""></a>
+                <a href="./CSE-BOOK.html" class="swiper-slide"><img src="Book/CSE/python1.jpg" alt=""></a>
+                <a href="./Story-Book.html" class="swiper-slide"><img src="Book/Story/story3.jpg" alt=""></a>
+            </div>
+            <img src="image/stand.png" class="stand" alt="">
+        </div>
+
+    </div>
+
+</section>
+
+<!-- home section ense  -->
+
+<!-- CSE_Book section starts  -->
+
+<section class="CSE_Book" id="CSE_Book">
+
+    <h1 class="heading"> <span>CSE Book</span> </h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                   <a href="./CSE-BOOK.html"><img src="Book/CSE/Book 1.1.jpg" alt="Book1"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 1</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/Book 1.2.jpg" alt="Book2"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 2</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/python3.jpeg" alt="Book3"></a> 
+                </div>o
+                <div class="content">
+                    <h3>CSE Book 3</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/C++1.jpg" alt="Book4"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 4</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/C++3.jpg" alt="Book5"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 5</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/python2.jpg" alt="Book6"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 6</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <a href="./CSE-BOOK.html"><img src="Book/CSE/python1.jpg" alt="Book7"></a> 
+                </div>
+                <div class="content">
+                    <h3>CSE Book 7</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+
+</section>
+
+<!-- CSE_Book section ends -->
+
+<!-- newsletter section starts -->
+
+<section class="newsletter">
+
+    <form action="">
+        <h3>subscribe for latest updates</h3>
+        <input type="email" name="email" placeholder="enter your email" id="email" class="box">
+        <input type="submit" value="subscribe" class="btn">
+    </form>
+
+</section>
+
+<!-- newsletter section ends -->
+
+<!-- Story Book section starts  -->
+
+<section class="Story_Book" id="Story_Book">
+
+    <h1 class="heading"> <span>Story Book</span> </h1>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/Book1.1.jpg" alt="Story Book 1">
+                </div>
+                <div class="content">
+                    <h3>Story Book 1</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story2.jpg" alt="Story Book 2">
+                </div>
+                <div class="content">
+                    <h3>Story Book 2</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/Book1.2.jpg" alt="Story Book 3">
+                </div>
+                <div class="content">
+                    <h3>Story Book 3</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story3.jpg" alt="Story Book 4">
+                </div>
+                <div class="content">
+                    <h3>Story Book 4</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story4.jpg" alt="Story Book 5">
+                </div>
+                <div class="content">
+                    <h3>Story Book 5</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story5.jpg" alt="Story Book 6">
+                </div>
+                <div class="content">
+                    <h3>Story Book 6</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+    </div>
+
+    <div class="swiper arrivals-slider">
+
+        <div class="swiper-wrapper">
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story5.jpg" alt="Story Book 6">
+                </div>
+                <div class="content">
+                    <h3>Story Book 6</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/story3.jpg" alt="Story Book 4">
+                </div>
+                <div class="content">
+                    <h3>Story Book 4</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/Book1.2.jpg" alt="Story Book 3">
+                </div>
+                <div class="content">
+                    <h3>Story Book 3</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+            <a href="./Story-Book.html" class="swiper-slide box">
+                <div class="image">
+                    <img src="Book/Story/Book1.1.jpg" alt="Story Book 1">
+                </div>
+                <div class="content">
+                    <h3>Story Book 1</h3>
+                    <div class="price">$15.99 <span>$20.99</span></div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </a>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Story Book section ends -->
+
+<!-- footer section starts  -->
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>our locations</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Barisal </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Dhaka </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Comilla </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Khulna </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Sylhet </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Rangpur </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="./index.html#home"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="./index.html#CSE_Book"> <i class="fas fa-arrow-right"></i> CSE Book </a>
+            <a href="./index.html#Story_Book"> <i class="fas fa-arrow-right"></i> Story Book </a>
+            <a href="./About.html"> <i class="fas fa-arrow-right"></i> About </a>
+        </div>
+
+        <div class="box">
+            <h3>extra links</h3>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Link 1 </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Link 2 </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Link 3 </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Link 4 </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Link 5 </a>
+        </div>
+
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +8801******** </a>
+            <a href="#"> <i class="fas fa-envelope"></i> TeamJoy@gmail.com </a>
+            <img src="image/worldmap.png" class="map" alt="">
+        </div>
+        
+    </div>
+
+    <div class="share">
+        <a href="https://www.facebook.com/" class="fab fa-facebook-f"></a>
+        <a href="https://www.twitter.com/" class="fab fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fab fa-instagram"></a>
+        <a href="https://www.linkedin.com/" class="fab fa-linkedin"></a>
+    </div>
+
+    <div class="credit"> created by <span><a href="https://www.codewithjoymondal.com">Team JOY</a></span> | all rights reserved! </div>
+
+</section>
+
+<!-- footer section ends -->
+
+<!-- For Splash loader  -->
+
+<div class="loader-container">
+    <img src="image/loader-img.gif" alt="">
+</div>
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
